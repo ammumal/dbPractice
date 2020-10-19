@@ -23,10 +23,10 @@
 
     $result = mysqli_query($link, $query);
     if($result == false) {
-        echo '저장하는 과정에서 문제가 생겼습니다. 관리자에게 문의해주세요. <a href="emp_insert.php">돌아가기</a>';
+        echo '저장하는 과정에서 문제가 생겼습니다. 관리자에게 문의해주세요.';
         error_log(mysqli_error($link));
     } else {
-        echo '성공하였습니다. <a href="emp_insert.php">추가 등록</a> <a href="index.php">메인화면으로</a>';
+        echo '성공하였습니다. <a href="emp_insert.php">돌아가기</a>';
     }
     
 ?>

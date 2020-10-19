@@ -13,7 +13,7 @@
         $emp_info .= '<td>'.$row['gender'].'</td>'; 
         $emp_info .= '<td>'.$row['hire_date'].'</td>';
         $emp_info .= '<td><a href="emp_update.php?emp_no='.$row['emp_no'].'">update</a></td>';
-        $emp_info .= '<td><a href="emp_delete_process.php?emp_no='.$row['emp_no'].'">delete</a></td>';
+        $emp_info .= '<td><a href="emp_delete.php?emp_no='.$row['emp_no'].'">delete</a></td>';
         $emp_info .= '</tr>';
     }
      
@@ -28,8 +28,7 @@
 </head>
 
 <body>
-    <h2>직원 관리 시스템 | 직원 정보 조회</h2>
-    <a href="emp_insert.php">신규 직원 등록</a>
+    <h2><a href="index.php">직원 관리 시스템</a> | 직원 정보 조회</h2>
     <table border="1">
         <tr>
             <th>emp_no</th>

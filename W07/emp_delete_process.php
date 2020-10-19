@@ -1,10 +1,6 @@
 <?php
     $link = mysqli_connect("localhost", "admin", "admin", "employees");
-    if(isset($_GET['emp_no'])) {
-        $filtered_id = mysqli_real_escape_string($link, $_GET['emp_no']);
-    } else {
-        $filtered_id = mysqli_real_escape_string($link, $_POST['emp_no']);
-    }
+    $filtered_id = mysqli_real_escape_string($link, $_POST['emp_no']);
     
 
     $query = " DELETE FROM employees
