@@ -1,5 +1,5 @@
 ## 새로 배운 내용
-JDK 설치, 이클립스 설치, sqldeveloper 설치, 오라클 db 설치를 하고 java와 오라클을 연동하는 환경 구축을 하였다.  
+JDK 설치, 이클립스 설치, sqldeveloper 설치, 오라클 db 설치를 하고 jdbc를 이용하여 java와 오라클을 연동하는 환경 구축을 하였다.  
 sql developer의 간단한 예제를 살펴보고, 이클립스에서 오라클 연결 확인 예제, select 확인 예제를 실습하였다.
 
 
