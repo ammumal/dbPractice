@@ -18,4 +18,6 @@ jsp db insert, update, delete
 
 ## 회고
 (!) 자동완성이 안됐었는데 이클립스를 껐다 켰더니 해결됐다.
- 
+
+구동영상
+> https://youtu.be/dE4zl06oyG8
