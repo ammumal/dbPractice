@@ -13,8 +13,9 @@
 13주차 강의노트
 > https://docs.google.com/presentation/d/1tjov3NYyJS-1ANGqoE5DlEKA-rrHzLkKigKTqk1QWXI/edit#slide=id.p
 
-이클립스 자동완성
-> https://ondolroom.tistory.com/480
+jsp db insert, update, delete
+> https://great-yo.tistory.com/76
 
 ## 회고
+(!) 자동완성이 안됐었는데 이클립스를 껐다 켰더니 해결됐다.
  
